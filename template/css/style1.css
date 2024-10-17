@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ed92c1; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+header nav {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
+    display: inline-block; 
+    padding: 10px 20px; 
+}
+
+header nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+header nav ul li {
+    display: inline; /* Menampilkan list item secara inline */
+    margin: 0 15px; /* Margin antar item */
+}
+
+header nav ul li a {
+    color: #fff; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    padding: 5px 10px; /* Padding pada tautan */
+    border-radius: 3px; /* Sudut melengkung pada tautan */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi */
+}
+
+header nav ul li a:hover {
+    background-color: #fff; /* Latar belakang putih saat hover */
+    color: #ed92c1; /* Warna teks saat hover */
+    font-weight: bold; /* Menebalkan teks saat hover */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px; /* Lebar maksimum kontainer */
+    margin: auto; /* Mengatur margin otomatis */
+}
+
+.menu {
+    display: flex; /* Menggunakan flexbox untuk menyusun gambar secara horizontal */
+    justify-content: center; /* Menyelaraskan konten di tengah */
+    flex-wrap: wrap; /* Memungkinkan item membungkus ke baris berikutnya jika diperlukan */
+}
+
+.menu-item {
+    margin: 10px; /* Margin antar item menu */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+.menu-item img {
+    max-width: 100%; /* Gambar tidak akan lebih besar dari 100% dari elemen induknya */
+    height: auto; /* Tinggi gambar disesuaikan secara otomatis */
+    width: 150px; /* Mengatur lebar gambar menjadi 150px */
+    border-radius: 5px; /* Sudut melengkung pada gambar */
+}
+
+footer {
+    background-color: #280872; /* Warna latar footer */
+    color: #fff; /* Warna teks footer */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    padding: 10px; /* Padding footer */
+    bottom: 0; /* Menempatkan footer di bawah */
+    width: 100%; /* Lebar penuh */
+}
